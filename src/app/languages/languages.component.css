@@ -1,0 +1,31 @@
+.language-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .language-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .language-item:hover {
+    background-color: #e6f7ff;
+  }
+  
+  .language-name {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .language-percentage {
+    color: #007bff;
+    font-weight: 600;
+  }
