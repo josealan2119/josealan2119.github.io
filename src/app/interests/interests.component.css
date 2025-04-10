@@ -1,0 +1,31 @@
+.interests-section {
+    margin: 20px 0;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .interests-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .interest-item {
+    font-size: 1.2rem;
+    color: #555;
+    display: inline;
+    font-weight: 600;
+  }
+  
+  .interest-item ng-container {
+    margin: 0 5px;
+  }
+  
+  .interest-item::after {
+    content: "";
+  }

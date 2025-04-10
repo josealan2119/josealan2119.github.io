@@ -1,0 +1,58 @@
+.header-container {
+    background-color: #1f2937;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .header-left,
+  .header-photo,
+  .header-contact {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .goal {
+    font-style: italic;
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+  
+  .header-contact p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+  }
+  
+  /* Responsive para móviles */
+  @media screen and (max-width: 768px) {
+    .header-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .profile-photo {
+      margin: 1rem 0;
+    }
+  }

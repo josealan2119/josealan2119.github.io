@@ -1,1 +1,11 @@
-<p>education works!</p>
+<div class="education-section">
+    <h3 class="section-title"> Educación</h3>
+  
+    <ul *ngFor="let item of education" class="education-list">
+      <li class="education-item">
+        <p class="education-dates">{{ item.startDate }} - {{ item.endDate }}</p>
+        <p class="education-degree">{{ item.Degree }}</p>
+        <p class="education-school">{{ item.Collage }}</p>
+      </li>
+    </ul>
+  </div>

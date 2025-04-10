@@ -1,1 +1,9 @@
-<p>languages works!</p>
+<div class="language-container">
+    <h2 class="language-title">Idiomas</h2>
+    <ul *ngFor="let lang of languages" class="language-list">
+      <li class="language-item">
+        <span class="language-name">{{ lang.language }}</span>
+        <span class="language-percentage">{{ lang.percentage }}</span>
+      </li>
+    </ul>
+  </div>

@@ -1,1 +1,21 @@
-<p>header works!</p>
+<tr class="header-row">
+  <td colspan="3" class="header-container">
+    <div class="header-content">
+      <div class="header-left">
+        <h2 class="name">{{ header.name }}</h2>
+        <p class="goal">{{ header.goalLife }}</p>
+      </div>
+
+      <div class="header-photo">
+        <img [src]="header.photoUrl" alt="Foto de perfil" class="profile-photo">
+      </div>
+
+      <div class="header-contact">
+        <p><strong>Email:</strong> {{ header.email }}</p>
+        <p><strong>Tel:</strong> {{ header.phoneNumber }}</p>
+        <p><strong>Ubicación:</strong> {{ header.location }}</p>
+        <p><strong>Redes:</strong> {{ header.socialNetwork }}</p>
+      </div>
+    </div>
+  </td>
+</tr>
