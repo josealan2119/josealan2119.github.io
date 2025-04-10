@@ -1,0 +1,9 @@
+<div class="interests-section">
+    <h3 class="section-title">Intereses</h3>
+    
+    <ul class="interests-list">
+      <li *ngFor="let interest of interests; let last = last" class="interest-item">
+        {{ interest.interest }}<ng-container *ngIf="!last"> | </ng-container>
+      </li>
+    </ul>
+  </div>

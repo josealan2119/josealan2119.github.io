@@ -1,0 +1,9 @@
+<div class="skills-container">
+  <h2 class="skills-title">Habilidades</h2>
+  <ul *ngFor="let s of skills" class="skills-list">
+    <li class="skills-item">
+      <span class="skills-name">{{ s.skill }}</span>
+      <span class="skills-percentage">{{ s.percentage }}</span>
+    </li>
+  </ul>
+</div>

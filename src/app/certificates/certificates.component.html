@@ -1,0 +1,10 @@
+<div class="certificates-container">
+    <h2 class="certificates-title">Certificados</h2>
+    <ul *ngFor="let certificate of certificates" class="certificates-list">
+      <li class="certificates-item">
+        <p class="certificate-name">{{ certificate.certificate }}</p>
+        <p class="certificate-issuer">{{ certificate.context }}</p>
+        <p class="certificate-date">{{ certificate.year }}</p>
+      </li>
+    </ul>
+  </div>
