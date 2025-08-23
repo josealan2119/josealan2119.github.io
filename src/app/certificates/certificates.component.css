@@ -53,3 +53,7 @@
     color: #333;
     margin-bottom: 1rem;
   }
+
+  .certificates-container {
+  user-select: text;
+}
